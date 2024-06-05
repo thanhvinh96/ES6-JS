@@ -1,0 +1,177 @@
+header {
+    width: 100%;
+    background-color: #3874f7;
+    padding: 10px;
+    color: #fff;
+}
+
+header>div>i {
+    margin: 0 15px;
+    line-height: 39;
+}
+
+.fleft {
+    display: inline-block;
+}
+
+.ti-mobile {
+    margin-left: 50px;
+}
+
+.ti-shopping-cart {
+    float: right;
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.gio-hang{
+    font-size: 25px;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 5px #ccc;
+}
+.vp{
+    display: flex;
+    align-items: center;
+    margin: 20px 0; 
+    /* border: 1px solid black; */
+}
+
+.img img{
+    width: 100px;
+    height: 100px;
+}
+
+.img, .so-luong, .tong, .ti-close{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.ten, .gia{
+    flex:2;
+    margin-left: 20px;
+}
+
+.gia{
+    color: red;
+}
+
+.ten, .tong{
+    font-weight: bold;
+}
+
+.ti-close{
+    cursor: pointer;
+}
+
+.ti-close:hover{
+    color: red;
+}
+* {
+    margin: 0px;
+  }
+
+  .row-logo {
+    background-color: white;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+
+  .row-logo>img {
+    float: left;
+  }
+
+  .row-logo .cart {
+    float: right;
+  }
+
+  .row-logo a {
+    text-decoration: none;
+  }
+
+  .row-menu {
+    background-color: #4caf50;
+    clear: both;
+  }
+
+  .menu {
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+
+  .menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .menu a:hover {
+    background-color: orange;
+  }
+
+  .banner {
+    margin-top: 10px;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+
+  .banner img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .product {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+
+  .sp {
+    margin: 5px;
+    display: inline-block;
+    width: 20%;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: rgba(255, 166, 0, 0.878);
+  }
+
+  .footer {
+    text-align: center;
+    background-color: rgba(255, 166, 0, 0.878);
+    padding: 40px;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  th {
+    background-color: rgb(242, 99, 11);
+  }
+
+  table {
+    width: 1100px;
+    margin: 0 auto;
+  }

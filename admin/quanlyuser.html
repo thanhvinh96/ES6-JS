@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylead.css">
+    <title>Document</title>
+</head>
+<body onload="hienthiuser()">
+    <div class="row">
+        <div class="col-md-2 ">
+            <div class="logo"><h1 class="text-center"><span>CHỢ TỐT</span> <br><span class="text-white">ADMIN</span></h1></div>
+            <hr>
+            <p><i class="bi bi-pie-chart-fill me-2"></i><a  href=""> Quản lý thống kê</a></p>
+            <p><i class="bi bi-tag-fill me-2"></i><a  href=""> Quản lý danh mục</a></p>
+            <p><i class="bi bi-box-seam me-2"></i><a  href="quanlysp.html"> Quản lý sản phẩm</a></p>
+            <p><i class="bi bi-people-fill me-2"></i><a  href="quanlyuser.html"> Quản lý người dùng</a></p>
+            <p><i class="bi bi-cart-fill me-2"></i><a  href=""> Quản lý đơn hàng</a></p>
+            <p><i class="bi bi-chat-left-text-fill me-2"></i><a  href=""> Quản lý bình luận</a></p>
+            <hr>
+            <div class="logout">           
+                <a href="../Home/index.html"><button>Đăng xuất</button></a>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>UserName</th>
+                            <th>Số Điện Thoại</th>
+                            <th>Email</th>
+                            <th>Họ Tên</th>
+                            <th>Địa Chỉ</th>
+                            <th>Ghi Chú</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listuser">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="../code/xl_user.js"></script>
+<script src="../code/user.js"></script>
+</html>
